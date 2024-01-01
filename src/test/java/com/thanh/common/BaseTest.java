@@ -14,7 +14,7 @@ public class BaseTest {
     public void loginUser() {
 
         //Khởi tạo giá trị cho các fields thông qua hàm xây dựng
-        LoginPOJO loginPOJO = new LoginPOJO("thanhtester04", "Demo@123");
+        LoginPOJO loginPOJO = new LoginPOJO("thanhtester", "Demo@123");
 
         //Dùng thư viện Gson để chuyển class POJO về dạng JSON
         Gson gson = new Gson();

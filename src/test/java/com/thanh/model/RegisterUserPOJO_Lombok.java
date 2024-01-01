@@ -15,6 +15,4 @@ public class RegisterUserPOJO_Lombok {
     private String password;
     private String phone;
     private int userStatus;
-
-
 }

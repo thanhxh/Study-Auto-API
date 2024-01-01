@@ -32,7 +32,7 @@ public class DemoPostMethod {
 
     @Test
     public void testRegisterUser() {
-        String username = "thanhtester04";
+        String username = "thanhtester";
         String firstName = "Thanh";
         String lastName = "Tester";
         String email = username + "@email.com";
