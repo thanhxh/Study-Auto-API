@@ -1,4 +1,4 @@
-package com.thanh.Bai5_PhuongThucPOST;
+package com.thanh.Bai5_POSTmethod;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;

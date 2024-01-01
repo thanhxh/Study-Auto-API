@@ -1,4 +1,4 @@
-package com.thanh.Bai3_SendRequest_GET;
+package com.thanh.Bai3_SendRequest_GETmethod;
 
 
 import io.restassured.http.ContentType;

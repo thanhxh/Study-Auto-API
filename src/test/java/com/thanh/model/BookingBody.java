@@ -6,18 +6,7 @@ public class BookingBody {
     private int totalprice;
     private boolean depositpaid;
     private String additionalneeds;
-    private BookingDates bookingDates;
-
-    public BookingBody(String firstname, String lastname, int totalprice, Boolean depositpaid, String additionalneeds) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.totalprice = totalprice;
-        this.depositpaid = depositpaid;
-        this.additionalneeds = additionalneeds;
-    }
-
-    public BookingBody() {
-    }
+    private BookingDates bookingdates;
 
     public String getFirstname() {
         return firstname;
@@ -59,11 +48,11 @@ public class BookingBody {
         this.depositpaid = depositpaid;
     }
 
-    public BookingDates getBookingDates() {
-        return bookingDates;
+    public BookingDates getBookingdates() {
+        return bookingdates;
     }
 
-    public void setBookingDates(BookingDates bookingDates) {
-        this.bookingDates = bookingDates;
+    public void setBookingdates(BookingDates bookingdates) {
+        this.bookingdates = bookingdates;
     }
 }
