@@ -9,12 +9,18 @@ import com.thanh.model.data.LoginPOJO_Builder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 import static io.restassured.RestAssured.given;
 
 public class BaseTest {
+    @BeforeClass
+    public void beforeClass() {
+        System.out.println("This is before class CHA");
+    }
+
     @BeforeSuite
     public void setupSuite() {
         PropertiesHelper.loadAllFiles();
